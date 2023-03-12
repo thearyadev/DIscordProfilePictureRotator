@@ -13,5 +13,5 @@ services:
     environment:
       TOKEN: "<PLACE YOUR TOKEN HERE>"
       # if you are having problems, make sure your token is correct, then redeploy this docker compose file
-      INTERVAL: "500" # the time interval that your profile picture should be changed. This number is in SECONDS.
+      INTERVAL: "900" # the time interval that your profile picture should be changed. This number is in SECONDS.
       # make sure this is higher than 10 minutes as Discord has an Avatar change rate limit.
