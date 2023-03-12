@@ -12,7 +12,7 @@ if __name__ == '__main__':
         print(f"Waiting {os.getenv('INTERVAL')} seconds")
         time.sleep(int(os.getenv("INTERVAL")))
         files = [f for f in os.listdir("./data") if f.split(".")[-1] in
-                 (".png", ".jpg", ".jpeg", ".PNG", ".JPG", ".JPEG")]
+                 ("png", "jpg", "jpeg", "PNG", "JPG", "JPEG")]
 
         if not len(files):
             print("No images found. ")
