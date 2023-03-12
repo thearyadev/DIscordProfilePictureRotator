@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  rotator:
+    build: .
+    environment:
+      TOKEN: "<PLACE YOUR TOKEN HERE>"
+      INTERVAL: "500" # the time interval that your profile picture should be changed. This number is in SECONDS.
