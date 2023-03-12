@@ -6,7 +6,7 @@ A tool to automatically change your discord profile picture. Note: Your discord 
 Note: These instructions require the following tools installed: git, docker, docker compose
 1. Get your discord token. There's plenty of resources online on how to do this. 
 2. Find some profile pictures you would like to use.
-3. Run the command `git clone https://github.com/thearyadev/discordprofilepicturerotater` This will clone the repository to your local environment. 
+3. Run the command `git clone https://github.com/thearyadev/DiscordProfilePictureRotator` This will clone the repository to your local environment. 
 4. CD into the project directory. `cd DiscordProfilePictureRotator`
 5. Open `./docker-compose.yaml` in a text editor.
    In this file, read all the comments (all lines starting with a `#`) and add all the missing information.
