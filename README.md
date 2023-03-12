@@ -13,3 +13,5 @@ Note: These instructions require the following tools installed: git, docker, doc
 6. Run the command `docker-compose up -d`
 
 To stop the deployment, use the command `docker-compose down` in the project directory. You can then edit the `docker-compose.yaml` file. To redeploy, run `docker-compose up -d`
+
+If you are having problems, stop the container with `docker-compose down` then start it again with `docker-compose up` (without the `-d` flag). This will run the container in interactive mode, where you can see the logs. in your console  
